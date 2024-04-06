@@ -161,9 +161,15 @@ body{
 
 }
 
-
-
-
+@media screen and (max-width:1550px) and (min-width:1500px){
+  .btn-outlined{
+    font-size: 12px;
+  }
+  .btn-filled{
+    font-size: 12px;
+  }
+  
+}
 
        
 
