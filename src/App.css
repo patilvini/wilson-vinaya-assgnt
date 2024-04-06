@@ -1,0 +1,170 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@160..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@160..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@160..700&family=Reem+Kufi:wght@400..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('@fontsource-variable/reem-kufi');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Readex Pro;
+}
+
+body{
+  background-color: #F9F9F9;
+}
+:root{
+  --black:#000000;
+  --black-1:#181815;
+  --blue:#3081d2;
+  --lightgreen:#28CCC2;
+  --green:#43cea2;
+  --white:#fefefe;
+  --gray:#e2e2e2;
+  --grey:#F9F9F9;
+}
+
+.container{
+  margin:110px 24px 24px 24px;
+  padding-bottom: 24px;
+}  
+
+.font-work-sans{
+  font-family: Work Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  font-family: Work Sans;
+
+
+
+}
+
+
+
+
+.btn-outlined{
+  background-color:var(--white);
+  border: 1px solid transparent;
+  color:linear-gradient(to left,#28CCC2,#3081d2);
+  background: linear-gradient(white, white) padding-box,
+  linear-gradient(to left,  var(--blue),var(--green)) border-box;
+  border-radius:12px;
+  border-style: solid;
+  padding: 12px 5%;
+  text-align: center;
+  font-size: 16px;
+  font-family: Reem Kufi;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+
+
+
+
+
+}
+
+.btn-filled{
+  background-image: linear-gradient(to right,var(--green) 0%, var(--blue)  90%, var(--blue)  90%);
+  color:var(--green);
+  border: none;
+  border-radius:12px;
+  padding: 12px 12px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  display: block;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: Reem Kufi;
+  cursor: pointer;
+  color: var(--white);
+  letter-spacing: 0.6px;
+
+
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-vc {
+  display: flex;
+  align-items: center;
+  
+  
+}
+
+.flex-vc-sb {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.flex-vc-se {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.flex-hc {
+  display: flex;
+  justify-content: center;
+}
+
+
+.flex-vchc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.input {
+  width: 100%;
+  height: 50px;
+  position: relative;
+  display: block;
+  padding: 8px;
+  margin-top: 12px ;
+  font-size: 16px;
+  outline: none;
+  border-radius: 12px;
+  border: solid 2px ;
+  background-color: white;
+  color: var(--black);
+  caret-color: var(--grey);
+  border: 1px solid var(--gray);
+  transition: 0.1s ease-out;
+  font-family: Readex Pro;
+  padding-left: 16px;
+
+
+}
+.input::placeholder{
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
+
+}
+
+
+
+
+
+       
+
+

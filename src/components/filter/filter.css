@@ -1,0 +1,122 @@
+.filter-card{
+          width: 320px;
+          height: auto;
+          background-color: white;
+          box-shadow: 10px 2px 20px 2px  rgba(198, 198, 198, 0.6);
+          position: absolute;
+          margin-top: 4px;
+          z-index: 10;
+          top: 29%;
+          right: 1%;
+          font-family: Reem Kufi;
+          line-height: 30px;
+          text-align: left;
+          color: #555555;
+          letter-spacing: 0.6px;
+          font-weight: 300;
+}
+
+.filter-card h4{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21.12px;
+  letter-spacing: 0.02em;
+  padding: 10px
+
+}
+
+.filter-card h3{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+}
+
+
+.filter-header{
+          height: 70px;
+          background-color: var(--grey);
+          padding: 18px;
+          text-align: left;
+}
+
+.filter-body li {
+          margin-top: 12px;
+          list-style-type: none;
+          text-decoration: none;
+          height: 30px;
+          display: flex;
+          justify-content: start;
+          align-items: center;
+          padding: 10px
+
+}
+
+
+
+.filter-body input[type="checkbox"]{
+          width: 20px;
+          height: 20px;
+          position: relative;
+          background-color:var(--white);
+          outline: 1px auto var(--lightgreen);
+          border-radius: 2px; 
+          appearance: none;
+          cursor: pointer;
+
+
+         
+}
+.filter-body label{
+  margin-left: 12px;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 21px;
+}
+.filter-body input[type="checkbox"]::before{
+  content: "";
+  position: absolute;
+  top:2px;
+  left:7px;
+  width:4px;
+  height: 12px;
+  border: 2px solid transparent;
+  border-top: none;
+  border-left: none;
+  transform: rotate(45deg) scale(1);
+ 
+}
+.filter-body input[type="checkbox"]:checked::before{
+    border-color: white;
+}
+
+.filter-body input[type="checkbox"]:checked{
+  background-color:var(--lightgreen) ;
+}
+
+.amount-filter{
+          border-bottom: 1px solid var(--lightgreen);
+          padding:24px 12px;
+}
+
+.filter-footer{
+          margin-top: 20px;
+          padding: 12px;
+
+}
+
+.btn-reset{
+          background-color: red;
+          border: 1px solid red;
+          border-radius:12px;
+          padding: 12px 45px;
+          text-align: center;
+          text-transform: uppercase;
+          transition: 0.5s;
+          display: block;
+          font-size: 16px;
+          font-weight: 600;
+          cursor: pointer;
+          height: 45px;
+          color: var(--white);
+}

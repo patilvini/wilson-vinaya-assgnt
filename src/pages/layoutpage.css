@@ -1,0 +1,41 @@
+.dashboard{
+          display: grid;
+          grid-template-columns: 280px 1fr;
+          grid-template-rows: 80px 1fr;
+}
+
+.logo{
+          text-transform: uppercase;
+          text-align: left;
+          font-weight: 200;
+          font-size: large;
+          height: 80px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background-color: var(--black);
+          color: var(--white);
+          position: fixed;
+          padding: 16px 12px;
+          width: 280px;
+
+}
+.logo span{
+          padding: 4px;
+}
+@media screen and (max-width:955px) {
+          .dashboard{
+                    grid-template-columns: 1fr;
+          }
+          .logo{
+                    display: none;
+          }
+          .sidebar{
+                    display: none;
+
+                    
+          }
+
+         
+}
+

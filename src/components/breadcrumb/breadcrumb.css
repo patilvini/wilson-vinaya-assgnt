@@ -1,0 +1,32 @@
+.breadcrumb-link{
+          text-decoration: none;
+          color: var(--black);
+          text-transform: capitalize;
+          font-family: Work Sans;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 24px;
+          letter-spacing: 0.02em;
+          text-align: left;
+          text-decoration: none;
+         
+}
+.breadcrumb{
+          max-width: 1200px;
+
+}
+.breadcrumb > *{
+          display: inline-block;
+}
+.breadcrumb .crumb:after{
+          content: ">";
+          margin: 0 8px;
+}
+
+.breadcrumb .crumb:last-child{
+          color: red;
+}
+
+.breadcrumb .crumb:last-child:after{
+         display: none;
+}

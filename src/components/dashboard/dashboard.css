@@ -1,0 +1,162 @@
+.navbar{
+          height: 80px;
+          background-color:var(--white);
+          box-shadow:2px 2px var(--gray);
+          padding:20px ;
+          position: fixed; 
+           width: 100%;
+           z-index: 1;
+         
+}
+
+.info{
+      font-family: Readex Pro;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: 0.02em;
+      text-align: left;
+      text-transform: capitalize;
+      
+
+}
+
+.sidbar-list {
+          position: fixed;
+          top:80px;
+          left:0;
+          width:280px;
+          background-color: var(--black-1);
+          font-weight:400;
+          height: 80vh;
+          color: var(--white);
+          display: flex;
+          flex-direction: column;
+          font-family: Readex Pro;
+          justify-content: space-between;
+          font-size: 18px;
+
+
+}
+
+.sidbar-list ul{
+          padding:8px 20px;
+
+}
+
+.sidbar-list li{
+          height: auto;
+          list-style-type: none;
+          border-bottom: 1px solid gray;
+          display: flex;
+          align-items: center;
+          padding: 24px 0;
+
+}
+
+
+.sidbar-list li a{
+          text-decoration: none;
+          color: var(--white);
+          text-align: center;
+          margin-left: 8px;
+
+}
+
+.deals{
+          width: 100%;
+         
+          font-size: 18px;
+          padding: 12px 0;
+}
+
+.deals p{
+      padding: 12px 0 0 0;
+
+}
+
+.sidebar-footer{
+          width: 280px;
+          height: 80px;
+          background-color: var(--black);
+          padding:8px 16px;
+
+}
+
+.footer-text{
+          padding-left: 8px;
+}
+
+
+
+@media screen and (max-width:955px) {
+          .sidbar-list{
+                    display: none;
+                   
+          }
+          
+          
+}
+@media screen and (min-width:956px) {
+          .nav-logo{
+                    display: none;
+          }
+          .menu-icon{
+                    display: none;
+          }
+          
+
+         
+}
+
+@media screen and (max-width:955px) {
+          .navbar{
+                    padding:12px 24px;
+          }
+          .navbar-cls{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+          }
+
+          .menu-Icon-div{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+          }
+          .menu-icon{
+                    display: block;
+                    padding: 12px;
+                    cursor: pointer;
+          }
+          .bread-div{
+                    display: none;
+          }
+          .sidbar-list{
+               display: none;    
+      }
+}
+
+
+.sidebar-resp{
+          position: fixed;
+          top:80px;
+          right:0;
+          width:250px;
+          background-color: var(--black-1);
+          font-weight:400;
+          font-size: 20px;
+          height: 80vh;
+          color: var(--white);
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+ 
+}
+
+@media screen and (min-width:956px) {
+          .sidebar-resp{
+                    display: none;
+          }
+          
+}

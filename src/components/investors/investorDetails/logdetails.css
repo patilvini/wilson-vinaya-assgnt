@@ -1,0 +1,27 @@
+.lg-details-btn{
+          width: 100%;
+}
+
+.lg-grid{
+       display: grid;
+       grid-template-columns: repeat(2,1fr); 
+       background-color: rgb(249, 249, 249);
+
+}
+
+.lg-grid-item{
+          border: 1px solid var(--grey);
+          height: 80px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+}
+
+.lg-footer{
+          padding: 16px;
+}
+
+.lg-header{
+          padding: 16px 0 0 16px;
+}
